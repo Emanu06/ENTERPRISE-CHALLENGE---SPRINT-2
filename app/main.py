@@ -1,5 +1,6 @@
-"""API local do protótipo EV ChargeOps — executável com uvicorn."""
+
 from __future__ import annotations
+
 
 import json
 import uuid

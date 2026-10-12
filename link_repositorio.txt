@@ -1,0 +1,5 @@
+https://github.com/timsleo/enterprise_challenge
+
+IMPORTANTE: este ZIP contém a implementação da Sprint 02. Antes da submissão,
+envie estes arquivos ao repositório do grupo (ou atualize esta URL para o fork
+da equipe), faça commits descritivos e confirme que o README foi publicado.

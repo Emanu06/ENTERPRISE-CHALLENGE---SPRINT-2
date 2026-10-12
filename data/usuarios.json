@@ -1,0 +1,6 @@
+[
+  {"id":"usr-001","nome":"Ana Souza","email":"ana.souza@fiap.com.br","rfid_id":"RFID-1001","unidade":"A-101","ativo":true},
+  {"id":"usr-002","nome":"Bruno Lima","email":"bruno.lima@fiap.com.br","rfid_id":"RFID-1002","unidade":"B-204","ativo":true},
+  {"id":"usr-003","nome":"Camila Rocha","email":"camila.rocha@fiap.com.br","rfid_id":"RFID-1003","unidade":"C-305","ativo":true},
+  {"id":"usr-004","nome":"Diego Alves","email":"diego.alves@fiap.com.br","rfid_id":"RFID-1004","unidade":"A-202","ativo":true}
+]

@@ -1,0 +1,18 @@
+[
+  {"id":"ses-001","usuario_id":"usr-001","inicio":"2026-06-02T08:10:00","fim":"2026-06-02T09:35:00","energia_kwh":10.4,"potencia_media_kw":7.34,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-002","usuario_id":"usr-002","inicio":"2026-06-02T18:20:00","fim":"2026-06-02T20:10:00","energia_kwh":13.2,"potencia_media_kw":7.20,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-003","usuario_id":"usr-003","inicio":"2026-06-03T09:00:00","fim":"2026-06-03T10:20:00","energia_kwh":9.1,"potencia_media_kw":6.83,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-004","usuario_id":"usr-001","inicio":"2026-06-04T13:10:00","fim":"2026-06-04T14:40:00","energia_kwh":10.8,"potencia_media_kw":7.20,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-005","usuario_id":"usr-004","inicio":"2026-06-05T17:30:00","fim":"2026-06-05T19:40:00","energia_kwh":14.8,"potencia_media_kw":6.83,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-006","usuario_id":"usr-002","inicio":"2026-06-08T08:20:00","fim":"2026-06-08T09:35:00","energia_kwh":8.8,"potencia_media_kw":7.04,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-007","usuario_id":"usr-003","inicio":"2026-06-09T18:00:00","fim":"2026-06-09T19:25:00","energia_kwh":9.9,"potencia_media_kw":6.99,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-008","usuario_id":"usr-001","inicio":"2026-06-10T08:15:00","fim":"2026-06-10T09:47:00","energia_kwh":11.24,"potencia_media_kw":7.21,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-009","usuario_id":"usr-004","inicio":"2026-06-11T12:10:00","fim":"2026-06-11T13:30:00","energia_kwh":9.3,"potencia_media_kw":6.98,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-010","usuario_id":"usr-002","inicio":"2026-06-12T18:10:00","fim":"2026-06-12T20:25:00","energia_kwh":15.7,"potencia_media_kw":6.98,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-011","usuario_id":"usr-003","inicio":"2026-06-15T09:20:00","fim":"2026-06-15T10:50:00","energia_kwh":10.5,"potencia_media_kw":7.00,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-012","usuario_id":"usr-004","inicio":"2026-06-16T18:05:00","fim":"2026-06-16T21:35:00","energia_kwh":4.1,"potencia_media_kw":1.17,"status":"interrupted","fonte_dados":"sems_api"},
+  {"id":"ses-013","usuario_id":"usr-001","inicio":"2026-06-17T08:00:00","fim":"2026-06-17T09:20:00","energia_kwh":9.5,"potencia_media_kw":7.13,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-014","usuario_id":"usr-002","inicio":"2026-06-18T18:15:00","fim":"2026-06-18T20:00:00","energia_kwh":12.6,"potencia_media_kw":7.20,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-015","usuario_id":"usr-003","inicio":"2026-06-19T12:15:00","fim":"2026-06-19T13:35:00","energia_kwh":8.9,"potencia_media_kw":6.68,"status":"completed","fonte_dados":"sems_api"},
+  {"id":"ses-016","usuario_id":"usr-004","inicio":"2026-06-22T18:00:00","fim":"2026-06-22T22:30:00","energia_kwh":31.5,"potencia_media_kw":7.00,"status":"completed","fonte_dados":"sems_api"}
+]

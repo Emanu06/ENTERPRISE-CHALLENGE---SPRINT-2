@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EV ChargeOps</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <header><div><p class="eyebrow">GOODWE × FIAP · PROTÓTIPO SPRINT 02</p><h1>EV ChargeOps</h1><p>Gestão inteligente de recargas compartilhadas</p></div><span class="badge">● Carregador online</span></header>
+  <nav aria-label="Navegação principal"><button class="tab active" data-screen="operacao">Operação e rateio</button><button class="tab" data-screen="indicadores">Indicadores</button></nav>
+  <main>
+    <section id="operacao" class="screen active">
+      <section class="hero"><div><h2>Operação transparente, rateio justo.</h2><p>Dados de sessão transformados em faturas individuais e inteligência para a gestão.</p></div><button id="refresh">Atualizar dados</button></section>
+      <section class="cards" id="cards"></section>
+      <section class="grid"><article class="wide"><div class="title"><h2>Faturas do período</h2><span id="period"></span></div><div class="table-wrap"><table><thead><tr><th>Usuário</th><th>Consumo</th><th>Energia</th><th>Infraestrutura</th><th>Total</th></tr></thead><tbody id="invoices"></tbody></table></div></article>
+      <article><div class="title"><h2>Registrar sessão simulada</h2><span>RFID autenticado</span></div><form id="form"><label>RFID<input name="rfid_id" value="RFID-1001" required></label><label>Início<input name="inicio" type="datetime-local" value="2026-06-25T08:00" required></label><label>Fim<input name="fim" type="datetime-local" value="2026-06-25T09:30" required></label><label>Energia (kWh)<input name="energia_kwh" type="number" value="10.5" min="0.1" step="0.1" required></label><label>Potência média (kW)<input name="potencia_media_kw" type="number" value="7.0" min="0.1" step="0.1" required></label><button type="submit">Registrar e recalcular</button><p id="feedback" role="status"></p></form></article></section>
+    </section>
+    <section id="indicadores" class="screen">
+      <section class="hero"><div><p class="eyebrow blue">VISÃO DO GESTOR</p><h2>Indicadores operacionais e inteligência</h2><p>Leitura rápida do uso, faturamento e pontos que merecem revisão humana.</p></div><button id="refreshIndicators">Atualizar indicadores</button></section>
+      <section class="cards" id="indicatorCards"></section>
+      <section class="grid"><article><div class="title"><h2>Demanda estimada</h2><span>Regressão linear</span></div><div id="prediction" class="list"></div><p class="hint">Estimativa de consumo para a próxima segunda-feira baseada em dia da semana e horário.</p></article>
+      <article><div class="title"><h2>Alertas para revisão</h2><span>Isolation Forest</span></div><div id="anomalies" class="list"></div><p class="hint">O modelo apenas recomenda análise; o gestor valida qualquer medida.</p></article>
+      <article class="wide"><div class="title"><h2>Distribuição de consumo por usuário</h2><span>kWh no período</span></div><div id="consumptionBars" class="bars"></div><p class="hint">A participação é calculada somente sobre sessões concluídas, preservando transparência no rateio.</p></article></section>
+      <section class="footnote"><strong>Como interpretar:</strong> consumo e receita mostram o fechamento corrente; sessões interrompidas e anomalias indicam necessidade de conferência; a previsão ajuda a comunicar horários potencialmente mais carregados.</section>
+    </section>
+  </main><script src="app.js"></script>
+</body></html>
